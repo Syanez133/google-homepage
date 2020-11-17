@@ -1,114 +1,150 @@
-body{
-    font-size: medium;
-    background: #fff;
-color: #202124;
-font-family: arial,sans-serif;
-height: 100%;
-margin: 0;
-padding: 0;
+body {
+	font-size: medium;
+	background: #fff;
+	color: #202124;
+	font-family: arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
-.google-image{
-    padding-top: 109px;
-    text-align: center;
+
+#google-image {
+	margin-top: 180px;
+	margin-bottom: 20px;
+	vertical-align: baseline;
+	
 }
+
 #img-logo {
-    
-    margin: 0 auto;
-    display: block;
-    
+	margin: 0 auto;
+	display: block;
+	max-height: 92px;
+	max-width: 272px;
+	
+	width :272px;
+	height :92px;
 }
 
 input.search-bar {
+	flex: 1;
+	display: flex;
+	font-size: medium;
+	color: #202124;
+	font-family: arial, sans-serif;
+	width: 482px;
+	padding-top: 18px;
+	padding-left: 25;
+	margin: 0 auto;
+	display: block;
+	border-width: 1pt;
+	border-style: solid;
+	border-radius: 50px;
+	
     
-flex: 1;
-display: flex;
-padding: 5px 8px 0 16px;
-    padding-left: 16px;
-padding-left: 14px;
-font-size: medium;
-color: #202124;
-font-family: arial,sans-serif;
-width: 482px;
-padding-top: 18px;
-margin: 0 auto;
-    display: block;
+}
+
+button {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-image: linear-gradient(top, #f8f9fa, #f8f9fa);
+	background-color: #f8f9fa;
+	border: 1px solid #dadce0;
+	color: #202124;
+	font-size: 10pt;
+border-radius: 4px;
 
 }
-button{
-    font-family: arial,sans-serif;
-font-size: 14px;
-margin: 11px 4px;
-padding: 0 16px;
-line-height: 27px;
-height: 36px;
-min-width: 54px;
-text-align: center;
-cursor: pointer;
-user-select: none;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-    background-image: linear-gradient(top,#f8f9fa,#f8f9fa);
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124;
-}
-#button-container
-{
-    padding-top: 18px;
-    text-align: center;
-}
-#nav-bar
-{
-    
 
-    color: #000;
-    opacity: 0.75;
-    
-    font-family: arial,sans-serif;
-    padding-top: 18px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 200px;
-   
+#button-container {
+	padding-top: 18px;
+	text-align: center;
+	
+	
 }
-#footer-bar{
-    background-color: #f8f9fa;
-    color: #000;
-    opacity: 0.75;
-    
-    font-family: arial,sans-serif;
-    padding-top: 5px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-bottom: 5px;
-    position: absolute;
-    bottom: 0;
-    width: 98%;
-    height: 2.5rem;     
-  }
-a{
-    text-decoration: none;
-    color: #000;
+
+#nav-bar {
+	color: #000;
+	opacity: 0.75;
+	font-family: arial, sans-serif;
+	padding-top: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 200px;
 }
-a:hover { 
-    text-decoration: underline; 
-} 
+
+#footer-bar {
+	background-color: #f2f2f2;
+	color: #000;
+	
+	opacity: 0.75;
+	font-family: arial, sans-serif;
+	padding-top: 10px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-bottom: 1px;
+	position: absolute;
+	bottom: 0;
+	width: 98%;
+	height: 2.5rem;
+	border-width: .5pt;
+	border-style: solid;
+	border-color: rgb(236, 235, 235);
+}
+
+#inner-footer {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    display: inline;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-  #Right-Aligned-Nav
-  {
-    float:right
-  }
-  #Right-Aligned-footer
-  {
-    float:right
-  }
-  
-  
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#Right-Aligned-Nav {
+	float: right;
+}
+
+#Right-Aligned-footer {
+	float: right;
+}
+#Sign-in-button{
+border: 1px solid #4285f4;
+font-weight: bold;
+outline: none;
+background: #0062ff;
+
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+font-weight: 1000;
+
+}
